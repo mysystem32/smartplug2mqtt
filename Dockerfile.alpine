@@ -1,0 +1,18 @@
+# Alberto da Silva -  Sep 2020
+
+# docker build -t ads/plug -f Dockerfile.alpine .
+
+FROM alpine:latest
+
+RUN addgroup -S -g 5911 plug && \
+    adduser -S -u 5911 -D -H -h /home/plug -G plug -g "plug" -s /bin/sh plug && \
+    apk add tzdata gcc libc-dev && \
+    apk add python3 py3-pip py3-paho-mqtt && \
+    pip3 install tuyaface && \
+    ln -s /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
+
+COPY startup.sh /startup.sh
+
+WORKDIR "/home/plug"
+USER "plug"
+CMD ["/startup.sh"]
