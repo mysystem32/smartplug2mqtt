@@ -1,0 +1,32 @@
+{
+    "HEARTBEAT": 0,
+    "NAME": "plug11-sample",
+    "PREV": {
+        "Current": 0.0,
+        "POWER": "ON",
+        "Power": 0.0,
+        "Time": "2020-10-14T11:11:11",
+        "Voltage": 234.6
+    },
+    "SENSOR": {
+        "ENERGY": {
+            "Current": 0.0,
+            "Power": 0.0,
+            "Today": 0.08,
+            "Total": 1.54,
+            "Voltage": 234.6,
+            "Yesterday": 0.069
+        },
+        "Time": "2020-10-14T11:11:11"
+    },
+    "STATE": {
+        "POWER": "ON",
+        "Time": "2020-10-14T11:11:11"
+    },
+    "device": {
+        "deviceid": "11111111111111111111",
+        "ip": "192.168.3.111",
+        "localkey": "2222222222222222",
+        "protocol": "3.3"
+    }
+}
