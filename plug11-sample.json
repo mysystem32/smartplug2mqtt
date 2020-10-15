@@ -12,10 +12,10 @@
         "ENERGY": {
             "Current": 0.0,
             "Power": 0.0,
-            "Today": 0.08,
-            "Total": 1.54,
+            "Today": 0.0,
+            "Total": 0.0,
             "Voltage": 234.6,
-            "Yesterday": 0.069
+            "Yesterday": 0.0
         },
         "Time": "2020-10-14T11:11:11"
     },
