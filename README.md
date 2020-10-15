@@ -9,7 +9,7 @@ I used the excellent https://github.com/TradeFace/tuyaface to read the data from
 
 **How to get the IP, devId, localKey for your smart plug**
 No need to root your phone - use NOX
-1) Regester the plug as ususal on you smart phone.
+1) Register the plug as ususal on you smart phone.
 
 2) Install NOX Android Emulator (Could use LDPlayer or BlueStacks)
 Download an old version of SmartLife 3.4.1 (or earlier) from apkmirror or other APK repo
