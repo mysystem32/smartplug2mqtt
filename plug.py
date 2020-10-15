@@ -101,7 +101,7 @@ def calc_consumption():
                 PLUG['SENSOR']['ENERGY']['Today'], PLUG['SENSOR']['ENERGY']['Total']))
 
 
-def update_reading():
+def update_reading(data: dict):
     # upadate PLUG with latest data points
     dps = data['dps']  # Data Points
     if '1' in dps:
@@ -135,7 +135,7 @@ def process_message(m: str, data: dict):
     #print(data)
     #devId = data['devId']
     check_day_rollover()
-    update_reading()
+    update_reading(data)
 
     calc_consumption()
     state_change, sensor_change = update_prev()
