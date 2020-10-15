@@ -9,7 +9,7 @@ I used the excellent https://github.com/TradeFace/tuyaface to read the data from
 
 **How to get the IP, devId, localKey for your smart plug**
 No need to root your phone - use NOX
-1) Register the plug as ususal on you smart phone.
+1) Register the plug as ususal on your smart phone.
 
 2) Install NOX Android Emulator (Could use LDPlayer or BlueStacks)
 Download an old version of SmartLife 3.4.1 (or earlier) from apkmirror or other APK repo
@@ -32,4 +32,4 @@ Run plug.py plug11-sample.json
 This will pull the Power(W), Current(A), Voltage(V) from the plug and push the data to mqtt to emulate tasmota native.
 
 The app keeps track of Today(kWh),Yesterday(kWh) and Total(kWh) and includes that in the mqtt payload.
-Not ideal, but good enuf until tasmota-convert OTA starts working again.
+Not ideal, but good enough until tasmota-convert OTA starts working again.
